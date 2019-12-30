@@ -3,15 +3,55 @@
   padding:0px;
 }
 
-#painting {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+body {
+  background: url("https://raw.githubusercontent.com/nsmarino/nsmarino.github.io/master/images/NOAA.jpg");
 }
 
-p {
+header {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 5%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.pages {
+  text-align: center;
+  list-style-type: none;
+  font-family: fantasy;
+  line-height: 1.5em;
+  margin-top: 5%;
+
+}
+
+.pages li {
   display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  width: 10em;
+  margin: auto;
+
+}
+
+.pages li:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+  padding: 1em;
+}
+
+footer ul li {
+  padding: 1em;
+  font-family: monospace;
+  opacity: .75;
+}
+
+footer ul li:hover {
+  opacity: 1;
 }
